@@ -1,0 +1,28 @@
+.nav-bar{
+    width: 100%;
+    background-color: dimgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.nav-bar-container {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.nav-bar-logo a {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+
+
+.nav-bar-spacer {
+    flex: 1;
+}
